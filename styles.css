@@ -1,20 +1,53 @@
-.contenido {
+header {
   font-size: 15px;
+  color: rgb(168, 79, 79);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  background-color: rgb(236, 226, 226);
 }
 
-h1 {
-  font-size: 35px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-  color: rgb(39, 37, 37);
-  
-}
-
-.encabezado{
-  width: 700;
+header .encabezado {
+  width: 300px;
   border-radius: 50%;
 }
 
-img {
-  width: 700px;
+.contenido {
+  background-color: rgb(252, 248, 248);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+  text-align: center;
+}
+
+.justificado {
+  text-align: justify;
+}
+
+.ingredientes {
+  width: 600px; 
+}
+
+.beneficios {
+  width: 700px; 
+}
+
+.sanos {
+  width: 400px; 
+}
+
+.medico {
+  width: 400px; 
+  border-radius: 50%;
+}
+
+.inquietudes {
+  width: 400px; 
+  border-radius: 50%;
+}
+
+.enlaces {
+  text-align: left;
+}
+
+footer {
+  background-color: rgb(236, 226, 226);
 }
